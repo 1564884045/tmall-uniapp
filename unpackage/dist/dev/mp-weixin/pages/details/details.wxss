@@ -1,0 +1,46 @@
+
+page{background: #f2f2f2;}
+.header-fixed{
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+z-index: 2;
+}
+.backyes{background: #f8f8f8;}
+.backno{background: none;}
+.status_bar {
+width: 100%;
+/* background: #007AFF; */
+}
+.navs-image image{width: 28px; height: 28px;
+-webkit-border-radius: 50%;
+        border-radius: 50%;
+}
+.navs-image{display: -webkit-box;display: -webkit-flex;display: flex; -webkit-box-align: center; -webkit-align-items: center; align-items: center;
+ padding-left: 20rpx;
+}
+/* banner部分 */
+.imageurl {
+	width: 100%;
+	height: 700rpx !important;
+}
+swiper {
+	height: 700rpx !important;
+}
+.swiper-video{height: 700rpx; background: #4CD964;}
+.swiper-video video{width: 100%; height: 700rpx;}
+/* 自定义按钮 */
+.video-img image{width: 90rpx; height: 90rpx; z-index: 999;
+border: 2px solid #FFFFFF;
+-webkit-border-radius: 50%;
+        border-radius: 50%;}
+.video-img{width: 90rpx; height: 90rpx;
+position: absolute; bottom: 0;
+left: 50%;
+top: 50%;
+-webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+}
+.video-btn{height: 700rpx; position: relative;}
+
